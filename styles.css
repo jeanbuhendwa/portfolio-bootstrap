@@ -1,4 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
 .bg-secondary-col {
-    background-color:#3E3C3C;
-    padding: 1% 10%;
+  background-color: #3e3c3c;
+  padding: 1% 10%;
+}
+
+.background-headline {
+  background-color: #1c1a19;
+  background-image: url("img/Illustration-header.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right;
+}
+
+.heading-text {
+  font-family: 'Crete Round', serif;
+  color: #f55800;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82px;
 }
